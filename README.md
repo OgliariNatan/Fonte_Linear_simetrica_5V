@@ -1,1 +1,5 @@
-# Fonte_Linear_simetrica_5V
+# Fonte_Linear_simetrica_5V @200m A
+
+Fonte linear de 5V com proteção @400mA.
+
+Projeto para a disciplina de eletônica Analogica, da engenharia eletrônica do IFSC Câmpus Florianópolis.
