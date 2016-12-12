@@ -4,7 +4,7 @@
   <settings>
     <identity>
       <id>9ae46e41-5ccf-4e81-b072-8d9ae2645ad1</id>
-      <revision>15</revision>
+      <revision>17</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -31,7 +31,7 @@
   </region>
   <region id="1" left="360" top="9" width="176" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <text lang="por">
-      <p>Modelo Zener 1N4728A</p>
+      <p>Modelo Zener 1N5221B</p>
     </text>
   </region>
   <region id="2" left="54" top="27" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
@@ -49,7 +49,7 @@
     <math>
       <input>
         <e type="operand">Izener</e>
-        <e type="operand">70</e>
+        <e type="operand">20</e>
         <e type="operand" style="unit">mA</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">:</e>
@@ -153,7 +153,7 @@
       </result>
     </math>
   </region>
-  <region id="14" left="495" top="81" width="296" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="14" left="495" top="81" width="255" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Rzener</e>
@@ -166,7 +166,7 @@
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">147.1429</e>
+        <e type="operand">515</e>
         <e type="operand" style="unit">Ω</e>
         <e type="operator" args="2">*</e>
       </result>
@@ -221,20 +221,20 @@
       </input>
     </math>
   </region>
-  <region id="19" left="369" top="135" width="321" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="19" left="369" top="135" width="209" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Rzenermin</e>
-        <e type="operand">Vimim</e>
-        <e type="operand">Vzener</e>
-        <e type="operator" args="2">-</e>
+        <e type="operand">0.7</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operator" args="2">*</e>
         <e type="bracket">(</e>
         <e type="operand">Izener</e>
         <e type="operator" args="2">/</e>
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">108.2857</e>
+        <e type="operand">35</e>
         <e type="operand" style="unit">Ω</e>
         <e type="operator" args="2">*</e>
       </result>
@@ -380,7 +380,27 @@
       </result>
     </math>
   </region>
-  <region id="30" left="495" top="387" width="239" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="30" left="72" top="360" width="220" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Rporte</e>
+        <e type="operand">0.7</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operand">200</e>
+        <e type="operand" style="unit">mA</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">3.5</e>
+        <e type="operand" style="unit">Ω</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="31" left="495" top="387" width="239" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">RESprot</e>
@@ -399,7 +419,7 @@
       </result>
     </math>
   </region>
-  <region id="31" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="32" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Tc</e>
@@ -425,7 +445,7 @@
       </result>
     </math>
   </region>
-  <region id="32" left="495" top="423" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="33" left="495" top="423" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">RESprot</e>
@@ -436,7 +456,7 @@
       </input>
     </math>
   </region>
-  <region id="33" left="45" top="495" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="34" left="45" top="495" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Idmáx</e>
