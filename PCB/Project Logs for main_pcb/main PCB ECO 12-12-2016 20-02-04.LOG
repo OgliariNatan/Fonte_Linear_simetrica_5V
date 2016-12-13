@@ -1,0 +1,99 @@
+Removed Pin From Net: NetName=NetC4_1 Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=D8-1
+Removed Pin From Net: NetName=NetD8_2 Pin=D8-2
+Removed Pin From Net: NetName=NetD2_A Pin=P1-1
+Removed Pin From Net: NetName=NetD3_A Pin=P1-3
+Removed Pin From Net: NetName=NetQ4_B Pin=Q4-B
+Removed Pin From Net: NetName=NetQ8_2 Pin=Q8-2
+Removed Pin From Net: NetName=NetQ2_B Pin=R3-1
+Removed Pin From Net: NetName=NetQ2_B Pin=R4-1
+Removed Pin From Net: NetName=NetC1_1 Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R5-1
+Removed Pin From Net: NetName=NetQ4_B Pin=R5-2
+Removed Pin From Net: NetName=GND Pin=R7-1
+Removed Pin From Net: NetName=GND Pin=R7-2
+Removed Pin From Net: NetName=NetR7_3 Pin=R7-3
+Removed Pin From Net: NetName=NetR7_3 Pin=R8-1
+Removed Pin From Net: NetName=NetQ6_2 Pin=R12-1
+Removed Pin From Net: NetName=NetC6_2 Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=GND Pin=R13-2
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=NetQ8_2 Pin=R14-2
+Removed Pin From Net: NetName=NetR7_3 Pin=U1-2
+Removed Pin From Net: NetName=NetD1_K Pin=U1-8
+Removed Member From Class: ClassName=main Member=R15
+Removed Member From Class: ClassName=main Member=R15
+Removed Member From Class: ClassName=main Member=R15
+Removed Member From Class: ClassName=main Member=R15
+Removed Member From Class: ClassName=main Member=R16
+Removed Member From Class: ClassName=main Member=R16
+Removed Member From Class: ClassName=main Member=R16
+Removed Member From Class: ClassName=main Member=R16
+Change Component DesignItemId : Designator=C4 Old DesignItemId=Capacitor-Electrolytic New DesignItemId=Capacitor
+Change Component DesignItemId : Designator=C7 Old DesignItemId=Capacitor-Electrolytic New DesignItemId=Capacitor
+Change Component DesignItemId : Designator=R3 Old DesignItemId=Resistor New DesignItemId=Res2
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Resistor New DesignItemId=Res2
+Change Component Footprint: Designator=R12 Old Footprint=0805R New Footprint=AXIAL-0.4
+Change Component Footprint: Designator=C4 Old Footprint=CP-RAD-8.0mm-11.5mm-3.5mm New Footprint=C100-200-100
+Change Component Footprint: Designator=C7 Old Footprint=CP-RAD-8.0mm-11.5mm-3.5mm New Footprint=C100-200-100
+Change Component Footprint: Designator=D8 Old Footprint=LED-1 New Footprint=DSO-C2/D5.6
+Change Component Footprint: Designator=R3 Old Footprint=R400-2.0mm New Footprint=AXIAL-0.4
+Change Component Comment : Designator=R15 Old Comment=1k7R New Comment=22k
+Change Component Comment : Designator=R6 Old Comment=4k7 New Comment=22k
+Change Component Comment : Designator=R9 Old Comment=10 New Comment=3R6
+Change Component Comment : Designator=R1 Old Comment=10R New Comment=3R6
+Change Component Comment : Designator=R3 Old Comment=22R New Comment=Res2
+Change Component Comment : Designator=C7 Old Comment=100u New Comment=100n
+Change Component Comment : Designator=C4 Old Comment=100u New Comment=Value
+Change Component Comment : Designator=R12 Old Comment=Value New Comment=Res2
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=D3 NewDesignator=D2
+Change Component Designator: OldDesignator=D9 NewDesignator=D10
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R15 NewDesignator=R13
+Change Component Designator: OldDesignator=R16 NewDesignator=R14
+Added Component: Designator=D3(DSO-C2/D5.6)
+Added Component: Designator=D9(LED-1)
+Added Component: Designator=R4(R400-2.0mm)
+Added Component: Designator=R6(AXIAL-0.4)
+Added Component: Designator=R11(AXIAL-0.4)
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-2
+Added Pin To Net: NetName=NetD1_K Pin=D3-1
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=NetD3_A Pin=D8-1
+Added Pin To Net: NetName=NetC6_2 Pin=D8-2
+Added Pin To Net: NetName=GND Pin=D9-1
+Added Pin To Net: NetName=NetD8_2 Pin=D9-2
+Added Pin To Net: NetName=NetQ4_B Pin=P1-1
+Added Pin To Net: NetName=NetD2_A Pin=P1-3
+Added Pin To Net: NetName=NetQ2_C Pin=Q4-B
+Added Pin To Net: NetName=NetQ6_1 Pin=Q8-2
+Added Pin To Net: NetName=NetD1_K Pin=R3-1
+Added Pin To Net: NetName=NetQ2_B Pin=R4-1
+Added Pin To Net: NetName=NetC1_1 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=NetQ8_2 Pin=R6-2
+Added Pin To Net: NetName=NetQ8_2 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=NetD3_A Pin=R11-2
+Added Pin To Net: NetName=GND Pin=R12-1
+Added Pin To Net: NetName=NetR7_3 Pin=R12-2
+Added Pin To Net: NetName=NetR7_3 Pin=R14-1
+Added Pin To Net: NetName=NetQ8_2 Pin=U1-2
+Added Pin To Net: NetName=NetR7_3 Pin=U1-6
+Added Pin To Net: NetName=NetC1_1 Pin=U1-8
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetD1_K New Net Name=NetD3_1
+Change Net Name : Old Net Name=NetD3_A New Net Name=NetD8_1
+Change Net Name : Old Net Name=NetD8_2 New Net Name=NetD9_2
+Change Net Name : Old Net Name=NetQ4_B New Net Name=NetD1_A
+Change Net Name : Old Net Name=NetQ8_2 New Net Name=NetR6_2
+Change Net Name : Old Net Name=NetR7_3 New Net Name=NetR12_2
+Added Member To Class: ClassName=main Member=Component D10 1N4728A

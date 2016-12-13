@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=D1 Old Footprint=SMA New Footprint=DO-41-Plastic
+Change Component Footprint: Designator=D2 Old Footprint=SMA New Footprint=DO-41-Plastic
+Change Component Footprint: Designator=D5 Old Footprint=SMA New Footprint=DO-41-Plastic
+Change Component Footprint: Designator=D6 Old Footprint=SMA New Footprint=DO-41-Plastic
+Added Pin To Net: NetName=NetD1_A Pin=D1-A
+Added Pin To Net: NetName=NetC1_1 Pin=D1-K
+Added Pin To Net: NetName=NetD2_A Pin=D2-A
+Added Pin To Net: NetName=NetC1_1 Pin=D2-K
+Added Pin To Net: NetName=NetC6_2 Pin=D5-A
+Added Pin To Net: NetName=NetD1_A Pin=D5-K
+Added Pin To Net: NetName=NetC6_2 Pin=D6-A
+Added Pin To Net: NetName=NetD2_A Pin=D6-K
