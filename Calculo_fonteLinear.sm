@@ -4,7 +4,7 @@
   <settings>
     <identity>
       <id>9ae46e41-5ccf-4e81-b072-8d9ae2645ad1</id>
-      <revision>17</revision>
+      <revision>21</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -38,7 +38,7 @@
     <math>
       <input>
         <e type="operand">Vzener</e>
-        <e type="operand">3.3</e>
+        <e type="operand">2.4</e>
         <e type="operand" style="unit">V</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">:</e>
@@ -90,11 +90,11 @@
       </input>
     </math>
   </region>
-  <region id="8" left="369" top="45" width="181" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="8" left="360" top="45" width="181" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Izenermedido</e>
-        <e type="operand">24.8</e>
+        <e type="operand">16.8</e>
         <e type="operand" style="unit">mA</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">:</e>
@@ -153,23 +153,15 @@
       </result>
     </math>
   </region>
-  <region id="14" left="495" top="81" width="255" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="14" left="495" top="81" width="106" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Rzener</e>
-        <e type="operand">Vimax</e>
-        <e type="operand">Vzener</e>
-        <e type="operator" args="2">-</e>
-        <e type="operand">Izener</e>
-        <e type="operator" args="2">/</e>
-        <e type="bracket">(</e>
-        <e type="operator" args="2">:</e>
-      </input>
-      <result action="numeric">
-        <e type="operand">515</e>
+        <e type="operand">30</e>
         <e type="operand" style="unit">Ω</e>
         <e type="operator" args="2">*</e>
-      </result>
+        <e type="operator" args="2">:</e>
+      </input>
     </math>
   </region>
   <region id="15" left="63" top="90" width="73" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
@@ -203,7 +195,7 @@
     <math>
       <input>
         <e type="operand">Imaz</e>
-        <e type="operand">300</e>
+        <e type="operand">200</e>
         <e type="operand" style="unit">mA</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">:</e>
@@ -250,57 +242,22 @@
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">1.5152</e>
+        <e type="operand">2.0833</e>
       </result>
     </math>
   </region>
-  <region id="21" left="684" top="162" width="42" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="21" left="369" top="180" width="197" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
-        <e type="operand">22</e>
-        <e type="operand" style="unit">Ω</e>
-        <e type="operator" args="2">*</e>
-      </input>
-    </math>
-  </region>
-  <region id="22" left="684" top="180" width="59" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">4.7</e>
+        <e type="operand">Rfontedecorrente</e>
+        <e type="operand">42</e>
         <e type="operand" style="unit">kΩ</e>
         <e type="operator" args="2">*</e>
-      </input>
-    </math>
-  </region>
-  <region id="23" left="324" top="198" width="322" height="54" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">CAPint</e>
-        <e type="operand">Vi</e>
-        <e type="operand">f</e>
-        <e type="operand">Vimax</e>
-        <e type="operand">2</e>
-        <e type="operator" args="2">^</e>
-        <e type="operand">Vimim</e>
-        <e type="bracket">(</e>
-        <e type="operand">2</e>
-        <e type="operator" args="2">^</e>
-        <e type="operator" args="2">-</e>
-        <e type="bracket">(</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">/</e>
         <e type="operator" args="2">:</e>
       </input>
-      <result action="numeric">
-        <e type="operand">0.0023</e>
-        <e type="operand" style="unit">F</e>
-        <e type="operand" style="unit">A</e>
-        <e type="operator" args="2">/</e>
-        <e type="operator" args="2">*</e>
-      </result>
     </math>
   </region>
-  <region id="24" left="45" top="207" width="90" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="22" left="45" top="207" width="90" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">R2</e>
@@ -311,56 +268,7 @@
       </input>
     </math>
   </region>
-  <region id="25" left="45" top="225" width="189" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">R1</e>
-        <e type="operand">R2</e>
-        <e type="operand">G</e>
-        <e type="operand">1</e>
-        <e type="operator" args="2">-</e>
-        <e type="operator" args="2">/</e>
-        <e type="operator" args="2">:</e>
-      </input>
-      <result action="numeric">
-        <e type="operand">4270.5882</e>
-        <e type="operand" style="unit">Ω</e>
-        <e type="operator" args="2">*</e>
-      </result>
-    </math>
-  </region>
-  <region id="26" left="45" top="261" width="156" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">Vripplesaida</e>
-        <e type="operand">5</e>
-        <e type="operand" style="unit">mV</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">:</e>
-      </input>
-    </math>
-  </region>
-  <region id="27" left="522" top="261" width="131" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">CAPint</e>
-        <e type="operand">1000</e>
-        <e type="operand" style="unit">μF</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">:</e>
-      </input>
-    </math>
-  </region>
-  <region id="28" left="54" top="288" width="143" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">ripllesaida</e>
-        <e type="operand">0.1</e>
-        <e type="operator" args="2">:</e>
-      </input>
-    </math>
-  </region>
-  <region id="29" left="324" top="288" width="232" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="23" left="324" top="207" width="232" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">cap</e>
@@ -380,17 +288,84 @@
       </result>
     </math>
   </region>
-  <region id="30" left="72" top="360" width="220" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="24" left="45" top="225" width="189" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
-        <e type="operand">Rporte</e>
-        <e type="operand">0.7</e>
-        <e type="operand" style="unit">V</e>
-        <e type="operand">200</e>
-        <e type="operand" style="unit">mA</e>
+        <e type="operand">R1</e>
+        <e type="operand">R2</e>
+        <e type="operand">G</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">2030.7692</e>
+        <e type="operand" style="unit">Ω</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="25" left="324" top="252" width="131" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">CAPint</e>
+        <e type="operand">1000</e>
+        <e type="operand" style="unit">μF</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="26" left="45" top="261" width="156" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Vripplesaida</e>
+        <e type="operand">5</e>
+        <e type="operand" style="unit">mV</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="27" left="54" top="288" width="143" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">ripllesaida</e>
+        <e type="operand">0.1</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="28" left="333" top="297" width="314" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Capsaida</e>
+        <e type="operand">Imaz</e>
+        <e type="operand">2</e>
+        <e type="operand">f</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">Vripplesaida</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.3333</e>
+        <e type="operand" style="unit">F</e>
         <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="29" left="27" top="315" width="192" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">RESprot</e>
+        <e type="operand">0.7</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">Imaz</e>
+        <e type="operator" args="2">/</e>
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
@@ -400,26 +375,49 @@
       </result>
     </math>
   </region>
-  <region id="31" left="495" top="387" width="239" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="30" left="333" top="342" width="148" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Capsaida</e>
+        <e type="operand">3300</e>
+        <e type="operand" style="unit">μF</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="31" left="36" top="351" width="124" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">RESprot</e>
-        <e type="operand">Vi</e>
-        <e type="operand">Vo</e>
-        <e type="operator" args="2">-</e>
-        <e type="bracket">(</e>
+        <e type="operand">3.6</e>
+        <e type="operand" style="unit">Ω</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="32" left="279" top="387" width="223" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">y</e>
         <e type="operand">Imaz</e>
+        <e type="operand">2</e>
+        <e type="operand">f</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">Capsaida</e>
+        <e type="operator" args="2">*</e>
         <e type="operator" args="2">/</e>
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">13.3333</e>
-        <e type="operand" style="unit">Ω</e>
+        <e type="operand">0.5051</e>
+        <e type="operand" style="unit">V</e>
         <e type="operator" args="2">*</e>
       </result>
     </math>
   </region>
-  <region id="32" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="33" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Tc</e>
@@ -443,17 +441,6 @@
         <e type="operand" style="unit">s</e>
         <e type="operator" args="2">*</e>
       </result>
-    </math>
-  </region>
-  <region id="33" left="495" top="423" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">RESprot</e>
-        <e type="operand">20</e>
-        <e type="operand" style="unit">Ω</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">:</e>
-      </input>
     </math>
   </region>
   <region id="34" left="45" top="495" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
