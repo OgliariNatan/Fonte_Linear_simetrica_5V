@@ -4,7 +4,7 @@
   <settings>
     <identity>
       <id>9ae46e41-5ccf-4e81-b072-8d9ae2645ad1</id>
-      <revision>21</revision>
+      <revision>23</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -195,7 +195,7 @@
     <math>
       <input>
         <e type="operand">Imaz</e>
-        <e type="operand">200</e>
+        <e type="operand">210</e>
         <e type="operand" style="unit">mA</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">:</e>
@@ -337,7 +337,7 @@
       </input>
     </math>
   </region>
-  <region id="28" left="333" top="297" width="314" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="28" left="333" top="297" width="298" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Capsaida</e>
@@ -351,13 +351,13 @@
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">0.3333</e>
+        <e type="operand">0.35</e>
         <e type="operand" style="unit">F</e>
         <e type="operator" args="2">*</e>
       </result>
     </math>
   </region>
-  <region id="29" left="27" top="315" width="192" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="29" left="27" top="315" width="216" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">RESprot</e>
@@ -369,7 +369,7 @@
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">3.5</e>
+        <e type="operand">3.3333</e>
         <e type="operand" style="unit">Ω</e>
         <e type="operator" args="2">*</e>
       </result>
@@ -411,7 +411,7 @@
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">0.5051</e>
+        <e type="operand">0.5303</e>
         <e type="operand" style="unit">V</e>
         <e type="operator" args="2">*</e>
       </result>
