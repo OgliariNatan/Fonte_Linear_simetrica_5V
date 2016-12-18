@@ -4,7 +4,7 @@
   <settings>
     <identity>
       <id>9ae46e41-5ccf-4e81-b072-8d9ae2645ad1</id>
-      <revision>24</revision>
+      <revision>25</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -34,7 +34,18 @@
       <p>Modelo Zener 1N5221B</p>
     </text>
   </region>
-  <region id="2" left="54" top="27" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="2" left="540" top="9" width="82" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Vz</e>
+        <e type="operand">2.4</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="3" left="54" top="27" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Vzener</e>
@@ -45,7 +56,7 @@
       </input>
     </math>
   </region>
-  <region id="3" left="360" top="27" width="114" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="4" left="360" top="27" width="114" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Izener</e>
@@ -56,21 +67,7 @@
       </input>
     </math>
   </region>
-  <region id="4" left="621" top="27" width="61" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">TIP122</e>
-      </input>
-    </math>
-  </region>
-  <region id="5" left="684" top="27" width="61" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">TIP127</e>
-      </input>
-    </math>
-  </region>
-  <region id="6" left="198" top="36" width="101" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="5" left="171" top="36" width="101" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">riplle</e>
@@ -79,7 +76,7 @@
       </input>
     </math>
   </region>
-  <region id="7" left="63" top="45" width="65" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="6" left="63" top="45" width="65" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Vi</e>
@@ -90,7 +87,7 @@
       </input>
     </math>
   </region>
-  <region id="8" left="360" top="45" width="181" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="7" left="360" top="45" width="181" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Izenermedido</e>
@@ -101,7 +98,7 @@
       </input>
     </math>
   </region>
-  <region id="9" left="198" top="54" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="8" left="162" top="54" width="115" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Vimax</e>
@@ -112,21 +109,7 @@
       </input>
     </math>
   </region>
-  <region id="10" left="621" top="54" width="53" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">BC212</e>
-      </input>
-    </math>
-  </region>
-  <region id="11" left="675" top="54" width="53" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">BC548</e>
-      </input>
-    </math>
-  </region>
-  <region id="12" left="63" top="63" width="65" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="9" left="63" top="63" width="65" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Vo</e>
@@ -137,7 +120,18 @@
       </input>
     </math>
   </region>
-  <region id="13" left="198" top="72" width="254" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="10" left="405" top="63" width="106" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Rzener</e>
+        <e type="operand">30</e>
+        <e type="operand" style="unit">Ω</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="11" left="153" top="72" width="254" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Vriplle</e>
@@ -153,18 +147,32 @@
       </result>
     </math>
   </region>
-  <region id="14" left="495" top="81" width="106" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="12" left="693" top="72" width="61" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
-        <e type="operand">Rzener</e>
-        <e type="operand">30</e>
-        <e type="operand" style="unit">Ω</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">:</e>
+        <e type="operand">TIP127</e>
       </input>
     </math>
   </region>
-  <region id="15" left="63" top="90" width="73" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="13" left="405" top="81" width="250" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Vzo</e>
+        <e type="operand">Vz</e>
+        <e type="operand">Rzener</e>
+        <e type="operand">Izener</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">1.8</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="14" left="63" top="90" width="73" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">f</e>
@@ -175,7 +183,7 @@
       </input>
     </math>
   </region>
-  <region id="16" left="198" top="90" width="260" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="15" left="153" top="90" width="260" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Vimim</e>
@@ -191,7 +199,21 @@
       </result>
     </math>
   </region>
-  <region id="17" left="63" top="117" width="107" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="16" left="693" top="90" width="61" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">TIP122</e>
+      </input>
+    </math>
+  </region>
+  <region id="17" left="693" top="108" width="53" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">BC548</e>
+      </input>
+    </math>
+  </region>
+  <region id="18" left="63" top="117" width="107" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Imaz</e>
@@ -202,7 +224,32 @@
       </input>
     </math>
   </region>
-  <region id="18" left="63" top="135" width="82" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="19" left="369" top="117" width="316" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Vzo</e>
+        <e type="operand">Vz</e>
+        <e type="operand">Rzener</e>
+        <e type="operand">Izenermedido</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">1.896</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="20" left="693" top="126" width="53" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">BC212</e>
+      </input>
+    </math>
+  </region>
+  <region id="21" left="63" top="135" width="82" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">I</e>
@@ -213,7 +260,7 @@
       </input>
     </math>
   </region>
-  <region id="19" left="369" top="135" width="209" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="22" left="369" top="144" width="209" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Rzenermin</e>
@@ -232,7 +279,7 @@
       </result>
     </math>
   </region>
-  <region id="20" left="45" top="162" width="162" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="23" left="45" top="162" width="162" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">G</e>
@@ -246,18 +293,26 @@
       </result>
     </math>
   </region>
-  <region id="21" left="369" top="180" width="197" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="24" left="342" top="198" width="309" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
-        <e type="operand">Rfontedecorrente</e>
-        <e type="operand">42</e>
-        <e type="operand" style="unit">kΩ</e>
+        <e type="operand">RzenerReal</e>
+        <e type="operand">0.7</e>
+        <e type="bracket">(</e>
+        <e type="operand" style="unit">V</e>
         <e type="operator" args="2">*</e>
+        <e type="operand">Izenermedido</e>
+        <e type="operator" args="2">/</e>
         <e type="operator" args="2">:</e>
       </input>
+      <result action="numeric">
+        <e type="operand">41.6667</e>
+        <e type="operand" style="unit">Ω</e>
+        <e type="operator" args="2">*</e>
+      </result>
     </math>
   </region>
-  <region id="22" left="45" top="207" width="81" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="25" left="45" top="207" width="81" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">R2</e>
@@ -268,7 +323,47 @@
       </input>
     </math>
   </region>
-  <region id="23" left="324" top="207" width="232" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="26" left="45" top="225" width="189" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">R1</e>
+        <e type="operand">R2</e>
+        <e type="operand">G</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">-</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">9230.7692</e>
+        <e type="operand" style="unit">Ω</e>
+        <e type="operator" args="2">*</e>
+      </result>
+    </math>
+  </region>
+  <region id="27" left="342" top="252" width="197" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Rfontedecorrente</e>
+        <e type="operand">42</e>
+        <e type="operand" style="unit">kΩ</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="28" left="45" top="261" width="156" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Vripplesaida</e>
+        <e type="operand">5</e>
+        <e type="operand" style="unit">mV</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="29" left="333" top="270" width="232" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">cap</e>
@@ -288,25 +383,34 @@
       </result>
     </math>
   </region>
-  <region id="24" left="45" top="225" width="189" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="30" left="54" top="288" width="143" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
-        <e type="operand">R1</e>
-        <e type="operand">R2</e>
-        <e type="operand">G</e>
-        <e type="operand">1</e>
-        <e type="operator" args="2">-</e>
+        <e type="operand">ripllesaida</e>
+        <e type="operand">0.1</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="31" left="27" top="315" width="216" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">RESprot</e>
+        <e type="operand">0.7</e>
+        <e type="operand" style="unit">V</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">Imaz</e>
         <e type="operator" args="2">/</e>
         <e type="operator" args="2">:</e>
       </input>
       <result action="numeric">
-        <e type="operand">9230.7692</e>
+        <e type="operand">3.3333</e>
         <e type="operand" style="unit">Ω</e>
         <e type="operator" args="2">*</e>
       </result>
     </math>
   </region>
-  <region id="25" left="324" top="252" width="131" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="32" left="333" top="315" width="131" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">CAPint</e>
@@ -317,27 +421,18 @@
       </input>
     </math>
   </region>
-  <region id="26" left="45" top="261" width="156" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="33" left="36" top="351" width="124" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
-        <e type="operand">Vripplesaida</e>
-        <e type="operand">5</e>
-        <e type="operand" style="unit">mV</e>
+        <e type="operand">RESprot</e>
+        <e type="operand">3.6</e>
+        <e type="operand" style="unit">Ω</e>
         <e type="operator" args="2">*</e>
         <e type="operator" args="2">:</e>
       </input>
     </math>
   </region>
-  <region id="27" left="54" top="288" width="143" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">ripllesaida</e>
-        <e type="operand">0.1</e>
-        <e type="operator" args="2">:</e>
-      </input>
-    </math>
-  </region>
-  <region id="28" left="333" top="297" width="298" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="34" left="360" top="369" width="298" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Capsaida</e>
@@ -357,25 +452,7 @@
       </result>
     </math>
   </region>
-  <region id="29" left="27" top="315" width="216" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">RESprot</e>
-        <e type="operand">0.7</e>
-        <e type="operand" style="unit">V</e>
-        <e type="operator" args="2">*</e>
-        <e type="operand">Imaz</e>
-        <e type="operator" args="2">/</e>
-        <e type="operator" args="2">:</e>
-      </input>
-      <result action="numeric">
-        <e type="operand">3.3333</e>
-        <e type="operand" style="unit">Ω</e>
-        <e type="operator" args="2">*</e>
-      </result>
-    </math>
-  </region>
-  <region id="30" left="333" top="342" width="148" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="35" left="360" top="414" width="148" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Capsaida</e>
@@ -386,38 +463,7 @@
       </input>
     </math>
   </region>
-  <region id="31" left="36" top="351" width="124" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">RESprot</e>
-        <e type="operand">3.6</e>
-        <e type="operand" style="unit">Ω</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">:</e>
-      </input>
-    </math>
-  </region>
-  <region id="32" left="279" top="387" width="223" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">y</e>
-        <e type="operand">Imaz</e>
-        <e type="operand">2</e>
-        <e type="operand">f</e>
-        <e type="operator" args="2">*</e>
-        <e type="operand">Capsaida</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">/</e>
-        <e type="operator" args="2">:</e>
-      </input>
-      <result action="numeric">
-        <e type="operand">0.5303</e>
-        <e type="operand" style="unit">V</e>
-        <e type="operator" args="2">*</e>
-      </result>
-    </math>
-  </region>
-  <region id="33" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="36" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Tc</e>
@@ -443,7 +489,7 @@
       </result>
     </math>
   </region>
-  <region id="34" left="45" top="495" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="37" left="45" top="495" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Idmáx</e>
