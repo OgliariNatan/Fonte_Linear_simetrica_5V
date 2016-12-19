@@ -4,7 +4,7 @@
   <settings>
     <identity>
       <id>9ae46e41-5ccf-4e81-b072-8d9ae2645ad1</id>
-      <revision>25</revision>
+      <revision>26</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -452,18 +452,7 @@
       </result>
     </math>
   </region>
-  <region id="35" left="360" top="414" width="148" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
-    <math>
-      <input>
-        <e type="operand">Capsaida</e>
-        <e type="operand">3300</e>
-        <e type="operand" style="unit">μF</e>
-        <e type="operator" args="2">*</e>
-        <e type="operator" args="2">:</e>
-      </input>
-    </math>
-  </region>
-  <region id="36" left="54" top="423" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="35" left="36" top="378" width="238" height="69" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Tc</e>
@@ -489,7 +478,18 @@
       </result>
     </math>
   </region>
-  <region id="37" left="45" top="495" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
+  <region id="36" left="360" top="414" width="148" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Capsaida</e>
+        <e type="operand">3300</e>
+        <e type="operand" style="unit">μF</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="37" left="36" top="450" width="342" height="43" color="#000000" bgColor="#ffffff" fontSize="10">
     <math>
       <input>
         <e type="operand">Idmáx</e>
