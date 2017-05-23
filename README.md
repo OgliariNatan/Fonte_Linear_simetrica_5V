@@ -3,3 +3,7 @@
 Fonte linear de 5V com proteção @400mA.
 
 Projeto para a disciplina de eletônica Analógica, da engenharia eletrônica do IFSC Câmpus Florianópolis.
+
+Simulação: LTspice.
+Folha de cálculo: SMath studio.
+PCB: Altium
