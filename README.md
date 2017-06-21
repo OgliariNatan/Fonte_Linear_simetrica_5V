@@ -9,6 +9,6 @@ Folha de cálculo: <a href="http://en.smath.info/view/SMathStudio/summary">SMath
 Leiaute: Altium Designer </br>
 </p>
 <a href="https://drive.google.com/open?id=0BxyxF7Bi7nLkSndPaWJNY3c0V3M">Relatório Final</a>. <br/> 
-<a href="https://drive.google.com/open?id=0BxyxF7Bi7nLkX2ZtME1JWTNiU2s">Esquemático</a>. <br/> 
+<a href="https://drive.google.com/open?id=0BxyxF7Bi7nLka2tHOVhfZ2pMZEk">Esquemático</a>. <br/> 
 <h3> Foto do protótipo </h3>
 <img alt="Foto do protótipo." src="https://github.com/OgliariNatan/Fonte_Linear_simetrica_5V/blob/master/Fotos/Arquivo_000.jpeg"/>
