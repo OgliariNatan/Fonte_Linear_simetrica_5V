@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=F1-1
+Removed Member From Class: ClassName=main Member=F1
+Change Component Comment : Designator=R7 Old Comment=1k New Comment=10k
+Change Component Comment : Designator=R14 Old Comment=1k New Comment=10k
+Change Component Comment : Designator=R5 Old Comment=22k New Comment=47K
+Change Component Comment : Designator=R13 Old Comment=22k New Comment=47K
+Change Component Comment : Designator=R4 Old Comment=22R New Comment=36R
+Change Component Comment : Designator=R10 Old Comment=22R New Comment=36R
+Change Component Comment : Designator=Q1 Old Comment=TIP41C New Comment=TIP127
+Change Component Comment : Designator=C4 Old Comment=Value New Comment=100n
+Added Pin To Net: NetName=GND Pin=P1-2
+Change Net Name : Old Net Name=NetC1_1 New Net Name=VAC+
+Change Net Name : Old Net Name=NetC6_2 New Net Name=VAC-
