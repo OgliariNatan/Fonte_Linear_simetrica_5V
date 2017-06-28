@@ -12,3 +12,4 @@ Leiaute: <a href="http://www.altium.com/"> Altium Designer.</a> </br>
 <a href="https://drive.google.com/open?id=0BxyxF7Bi7nLka2tHOVhfZ2pMZEk">Esquemático</a>. <br/> 
 <h3> Foto do protótipo </h3>
 <img alt="Foto do protótipo." src="https://github.com/OgliariNatan/Fonte_Linear_simetrica_5V/blob/master/Fotos/Arquivo_000.jpeg"/>
+<br />
