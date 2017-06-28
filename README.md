@@ -8,7 +8,8 @@ Simulação: <a href="http://www.linear.com/designtools/software/#LTspice">LTspi
 Folha de cálculo: <a href="http://en.smath.info/view/SMathStudio/summary">SMath studio.</a> </br>   
 Leiaute: <a href="http://www.altium.com/"> Altium Designer.</a> </br>
 </p>
+<h3> Outros </h3>
 <a href="https://drive.google.com/open?id=0BxyxF7Bi7nLkSndPaWJNY3c0V3M">Relatório Final</a>. <br/> 
 <a href="https://drive.google.com/open?id=0BxyxF7Bi7nLka2tHOVhfZ2pMZEk">Esquemático</a>. <br/> 
-<h3> Foto do protótipo </h3>
+<h4> Foto do protótipo </h4>
 <img alt="Foto do protótipo." src="https://github.com/OgliariNatan/Fonte_Linear_simetrica_5V/blob/master/Fotos/Arquivo_000.jpeg"/>
