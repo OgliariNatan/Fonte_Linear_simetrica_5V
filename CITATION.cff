@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Natan"
+  given-names: "Ogliari"
+  orcid: "https://orcid.org/0009-0000-2586-2481"
+
+title: "Fonte_Linear_simetrica_5V"
+version: 1.0.0
+
+date-released: 2017-11-13
+url: "https://github.com/OgliariNatan/Fonte_Linear_simetrica_5V"
